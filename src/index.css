@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*, *::before, *::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: rgb(1, 6, 22);
+  --paragraphText: #bbb;
+  --dimWhite: #ccc;
+  --dimBlue: #1d7ad14d;
+  --headerText: #eee;
+}
+
+body {
+  font-family: poppins;
+}
+
+.blue__gradient__one {
+  background: linear-gradient(90deg, rgba(30, 143, 255, 10%) 20%, rgba(30, 143, 255, 20%) 80%);
+  filter: blur(100px);
+}
+
+.blue__gradient__two {
+  background: linear-gradient(120deg, rgba(22, 61, 100, 0.22) 2%, rgba(27, 98, 168, 0.15) 98%);
+  filter: blur(80px);
+}
+
+.white__gradient {
+  background: linear-gradient(120deg, rgba(45, 142, 238, 0.25) 2%, rgba(44, 131, 218, 0.3) 98%);
+  filter: blur(130px);
+}
+
+.blue__radial {
+  background: linear-gradient(120deg, rgba(11, 91, 172, 0.25) 30%, rgba(11, 72, 133, 0.39) 40%, rgba(21, 84, 148, 0.192) 20%, rgba(8, 88, 167, 0.3) 10%);
+  filter: blur(265px);
+}
+
+
+
+.bg-primary-gradient {
+  background: linear-gradient(75deg, rgb(98, 162, 226), rgb(46, 144, 243), rgb(44, 87, 167));
+}
+
+.text-gradient {
+  background: linear-gradient(75deg, rgb(98, 162, 226), rgb(46, 144, 243), rgb(44, 87, 167));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+
+.logochilda {
+
+  background:  rgb(46, 144, 243);
+}
+
+.logochildb {
+  background: linear-gradient(90deg, rgb(46, 144, 243), rgba(68, 117, 209, 90%));
+}
+
+.logochildc {
+  background: linear-gradient(160deg, rgba(46, 144, 243, 90%), rgb(98, 162, 226), rgb(44, 87, 167));
+}
+
+.nav-mobile li {
+  animation-name: nav-animation;
+  animation-duration: 700ms;
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  background-color: dodgerblue;
+  height: 5.5rem;
+  width: 250px;
+  transform: rotateX(90deg);
+  transform-origin: top;
+  animation-fill-mode: forwards;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5),
+  inset 5px 5px 10px rgba(255, 255, 255, 0.5),
+  inset -5px -5px 10px rgba(0, 0, 0, 0.75);;
+  opacity: 0;
+ 
+}
+
+.nav-mobile li:nth-child(1) {
+  animation-delay: 200ms;
+}
+.nav-mobile li:nth-child(2) {
+   margin-top: -10px;
+  animation-delay: 400ms;
+}
+.nav-mobile li:nth-child(3) {
+   margin-top: -10px;
+  animation-delay: 600ms;
+}
+.nav-mobile li:nth-child(4) {
+   margin-top: -10px;
+  animation-delay: 800ms;
+}
+.nav-mobile li:nth-child(5) {
+   margin-top: -10px;
+  animation-delay: 1s;
+}
+
+@keyframes nav-animation {
+  to {
+    transform: rotateX(0);
+    opacity: 1;
+    margin-top: 0px;
+  }
+  
+}
+
+.feature-bg {
+  background: linear-gradient(to right, rgb(54, 124, 194) 50%, rgb(34, 34, 49) 50%);
+}
+
+@media screen and (min-width:768px) {
+  .feature-bg {
+    background: linear-gradient(to bottom, rgb(15, 15, 26), rgb(33, 37, 51), rgba(49, 57, 71, 0.493), transparent 90%);
+  }
+}
+
+.feature-img-bg {
+  background: linear-gradient(to bottom, rgb(6, 6, 14), rgb(16, 19, 31), rgba(37, 44, 56, 0.493), transparent 90%);
+}
+

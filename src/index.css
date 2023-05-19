@@ -76,7 +76,7 @@ body {
   background-color: dodgerblue;
   height: 5.5rem;
   width: 250px;
-  transform: rotateX(90deg);
+  transform: rotateX(120deg);
   transform-origin: top;
   animation-fill-mode: forwards;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5),

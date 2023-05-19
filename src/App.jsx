@@ -13,6 +13,7 @@ const App = () => {
       </div>
       <div>
         <Features />
+        <Loan />
       </div>
     </div>
   )

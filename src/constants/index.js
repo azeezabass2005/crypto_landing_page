@@ -28,18 +28,19 @@ const featureCard = [
 
 const loanFeatureCard = [
     {
-        title: 'Secured Lines of Credit',
+        title: 'Secured',
+        titleTwo: 'Lines of Credit',
         img: creditlogo,
         miniFeature: [
             '$2,500 to $500,000',
-            'Monthly Payment',
             'No Prepayment Penalty',
             'Rates from 3,498%',
             'True Revolver line'
         ]
     },
     {
-        title: 'Secured Conventional Loan',
+        title: 'Secured',
+        titleTwo: 'Conventional Loan',
         img: loanlogo,
         miniFeature: [
             '$2,500 to $750,000',
@@ -49,7 +50,8 @@ const loanFeatureCard = [
         ]
     },
     {
-        title: 'Equipment Funding',
+        title: 'Equipment',
+        titleTwo: 'Funding',
         img: equipmentlogo,
         miniFeature: [
             '$2,500 to $750,000',

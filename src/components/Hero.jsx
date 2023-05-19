@@ -13,7 +13,7 @@ const Hero = () => {
           investment tool on <br className={`sm:flex hidden`} />
           Money Lion Crypto
         </h2>
-        <p className={`text-[var(--paragraphText)] sm:text-[18px] text-[17px] md:text-[18.5px] lg:text-[20px] md:mt-5 md:leading-[35px] sm:mt-3 sm:leading-[32px] mb-7 md:mb-9`}>
+        <p className={`text-[var(--paragraphText)] text-[18px] md:text-[18.5px] lg:text-[20px] md:mt-5 md:leading-[35px] sm:mt-3 leading-[32px] mb-7 md:mb-9`}>
           Need to consolidate debt or make a large purchase? We <br className={`sm:flex hidden`} />
           bring the lenders to you so you can shop and compare <br className={`sm:flex hidden`} />
           personal loan offers in minutes.

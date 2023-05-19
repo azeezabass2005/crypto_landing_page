@@ -14,7 +14,7 @@ const Loan = () => {
         </h2>
         <div className='flex flex-wrap justify-center items-center gap-[3rem]'>
           {loanFeatureCard.map((loanFeature, index) => (
-            <div className='bg-primary-gradient w-[280px] h-[315px] flex justify-center items-end rounded-br-[13px] rounded-bl-[13px]'>
+            <div className='bg-primary-gradient w-[280px] h-[315px] flex justify-center items-end rounded-br-[13px] rounded-bl-[13px] mb-3'>
               <div className=''>
                 <div className='w-[280px] h-[310px] bg-[#12122b] p-2 flex flex-col gap-4 rounded-br-[10px] rounded-bl-[10px]'>
                   <div className='flex justify-start gap-[2rem] items-center p-2 pb-4'>

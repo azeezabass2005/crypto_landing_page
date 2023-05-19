@@ -6,8 +6,8 @@ import { ratelogo, communitylogo, languagelogo, creativelogo, creditlogo, loanlo
 const featureCard = [
     {
         img: ratelogo,
-        title: `Competitive`,
-        titleTwo: `Rates`
+        title: 'Competitive',
+        titleTwo: 'Rates'
     },
     {
         img: communitylogo,

@@ -140,16 +140,16 @@ const faqsData = [
 
 const navLinks = [
     {
-        name: 'PRODUCT',
-        link: 'product'
+        name: 'FEATURE',
+        link: '#feature'
     },
     {
-        name: 'MONEYLIFE',
-        link: 'moneylife'
+        name: 'FIND',
+        link: '#find'
     },
     {
-        name: 'ABOUT US',
-        link: 'aboutus'
+        name: 'FAQS',
+        link: '#faqs'
     }
 ]
 

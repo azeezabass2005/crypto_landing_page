@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className={`bg-[transparent] backdrop-blur-[7px] flex flex-row sm:py-6 py-3 sm:px-6 md:px-32 px-3 justify-between z-[100]`}>
       <div className={`flex justify-between items-center h-[100%] gap-[2.7rem]`}>
-        <header className='flex justify-center items-center gap-4 md:ml-7 sm:ml-3 ml-2 h-[100%]'>
+        <header onClick={() => window.scrollTo(0, 0)} className='flex justify-center items-center gap-4 md:ml-7 sm:ml-3 ml-2 h-[100%]'>
           <Logo />
           <h1 className={`text-gradient sm:text-[1.5rem] text-[1.5rem] font-bold`}>
             LOGO

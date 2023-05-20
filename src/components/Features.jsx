@@ -4,7 +4,7 @@ import { loanFeatureCard } from '../constants'
 
 const Features = () => {
   return (
-    <div className={`bg-[var(--bg-color)] pb-3 sm:pb-6 md:pb-16`}>
+    <div id='feature' className={`bg-[var(--bg-color)] pb-3 sm:pb-6 md:pb-16`}>
       <div className='flex w-full justify-center items-center'>
         <ul className={`flex flex-wrap justify-center feature-bg md:w-[75%] w-[80%] rounded-[20px] sm:p-5 p-2`}>
           {featureCard.map((feature, index) => (

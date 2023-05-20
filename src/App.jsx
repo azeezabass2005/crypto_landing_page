@@ -1,7 +1,6 @@
 import React from 'react'
 import { Navbar, Hero, Features, Loan, WorkHard, Find, Testimonials, HowItWorks, Faqs, JoinUs, About, Footer } from './components'
 
-
 const App = () => {
   return (
     <div className={`bg-[var(--bg-color)]`}>
@@ -14,6 +13,13 @@ const App = () => {
       <div>
         <Features />
         <Loan />
+        <WorkHard />
+        <Find />
+        <HowItWorks />
+        <Faqs />
+        <JoinUs />
+        <About />
+        <Footer />
       </div>
     </div>
   )

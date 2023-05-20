@@ -19,6 +19,10 @@
   --headerText: #eee;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: poppins;
 }
@@ -39,8 +43,8 @@ body {
 }
 
 .blue__radial {
-  background: linear-gradient(120deg, rgba(11, 91, 172, 0.25) 30%, rgba(11, 72, 133, 0.39) 40%, rgba(21, 84, 148, 0.192) 20%, rgba(8, 88, 167, 0.3) 10%);
-  filter: blur(265px);
+  background: linear-gradient(120deg, rgba(11, 91, 172, 0.25) 30%, rgba(20, 96, 173, 0.39) 40%, rgba(6, 90, 175, 0.192) 20%, rgba(8, 88, 167, 0.3) 10%);
+  filter: blur(20px);
 }
 
 
@@ -128,4 +132,5 @@ body {
 .feature-img-bg {
   background: linear-gradient(to bottom, rgb(6, 6, 14), rgb(16, 19, 31), rgba(37, 44, 56, 0.493), transparent 90%);
 }
+
 

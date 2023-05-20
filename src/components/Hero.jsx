@@ -39,10 +39,11 @@ const Hero = () => {
         </div>
 
       </div>
-      <div className='relative'>
-        <img src={heroimage} alt="heroimage" className={`relative z-[3]`} />
-        <div className='absolute blue__radial h-[80%] w-[70%] rounded-full sm:top-[0%] top-[40%] right-[0%] z-[2]' />
-        <div className='absolute white__gradient h-[60%] w-[60%] rounded-full sm:top-[10%] top-[50%] right-[5%] z-[1]' />
+      <div className=''>
+        <img src={heroimage} alt="heroimage" /> 
+        {/* className={`relative z-[3]`} */}
+        {/* <div className='absolute blue__radial h-[80%] w-[70%] rounded-full sm:top-[0%] top-[40%] right-[0%] z-[2]' />
+        <div className='absolute white__gradient h-[60%] w-[60%] rounded-full sm:top-[10%] top-[50%] right-[5%] z-[1]' /> */}
       </div>
     </div>
   )

@@ -42,7 +42,7 @@ const Navbar = () => {
       <div className='sm:hidden flex z-[1000]'>
         <img src={toggle ? close : menu} className={`${toggle ? 'h-[30px] w-[30px]' : 'w-[45px] h-[45px]'} stroke-[dodgerblue] object-contain cursor-pointer`} alt="menu" onClick={() => setToggle((prev) => (!prev))}  />
             <div className={`${toggle ? 'flex' : 'hidden'} flex-col`}>
-              <ul className={`flex flex-col justify-center absolute top-[70px] right-[20px] nav-mobile z-[100]`}>
+              <ul className={`flex flex-col justify-center absolute top-[70px] right-[20px] nav-mobile z-[100]`} onClick={() => setToggle((prev => (!prev)))}>
                 {navLinks.map((nav, index) => (
                   <li key={nav.name} className={`flex items-center z-[100]`}>
                     <a href={nav.link} className={`text-[#ddf] text-[1rem  font-semibold pl-10 pr-28 py-7`}>
